@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <title>Aula</title>
+</head>
+<style>
+    /* <!-- dentro do style da font family funciona por sequencia de tentativa, se o usuario tiver intaladado na maquina ex: 
+    font-family: "times new roman",
+    times,
+    serif;
+    prioridade times new roman seguido pelo times se nao tiver vai para a familia serif
+    -->
+
+<!-- px = tamanho fixo
+    % = tamanho relativo
+    em = tamanho relativo ao conteiner pai -->
+
+<!-- na maioria das vezes o tamanho da font é 16px como padrão-->
+<!-- ex:  16px x 200% = 32px -->
+<!-- 1em equivale a ao tamanho padrão definido no container pai -->
+
+<!-- text-decoration = "underline", overline, line-through -->
+<!-- font: bold(negrito) 40px(tamanho) "lucida sans unicode", lucida grande, sans-serif -->
+<!-- font-weight: 900 (100 a 900) -->
+<!-- 
+    background-imag: "url('imagem')"
+    background-repeat: no-reapat ( apenas uma vez usa a imagem)
+    background-attachment : fixed (rola a pagina e a imagem fica no fundo) --> scroll (rola com a pagina)
+    pode usar imagem e cor de background ao msm tempo no msm atributo ex: background: blue url('imagem'). assim como os outros atributos ex: blue url('imagem') no-repeat scroll top center
+    
+ */
+ .home{
+    /* background-position: center; primeiro valor horizontal segundo valor vertical( ex: left center) */
+ }
+
+</style>
+
+<body>
+    <h2>Teste</h2>
+    <!-- formatação de texto -->
+    <strong>NEGRITO</strong><br>
+    <em>italico</em><br>
+    <u>underline</u><br>
+    <strike>riscado</strike><br>
+
+    <!-- lista não ordenada -->
+    <ul>
+        <li>home</li>
+        <li>banner</li>
+        <li>hi</li>
+    </ul>
+    <!-- lista ordenada  type="define a marcação"-->
+    <ol>
+        <li>carro</li>
+        <li>casa</li>
+        <li>jardim</li>
+    </ol>
+
+    <table border="2">
+        <!-- tr table row -->
+
+        <tr>
+            <th>Nome</th>
+            <th>data</th>
+            <th>valor</th>
+            <th>valor</th>
+        </tr>
+        <tr>
+            <!-- td table data -->
+            <td colspan="2">2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <!-- colspan aumenta o numero de celulas por td -->
+        <tr>
+            <!-- td table data -->
+            <td rowspan="2">2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <!-- td table data -->
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+    </table>
+
+    <form action="">
+
+
+        <input type="checkbox"> Futebol
+        <br>
+        <input type="radio" name="masculino" value="M">masculino
+
+        <br>
+        <select name="seleção" id="">
+            <option value="rs">RS</option>
+            <option value="sc">SC</option>
+            <option value="rj">Rj</option>
+            <option value="rs">RS</option>
+        </select>
+        <br>
+        <hr>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br>
+
+        <input type="button" value="Mandar">
+    </form>
+
+    <!-- caracter especiais entidades html -->
+
+</body>
+
+</html>
