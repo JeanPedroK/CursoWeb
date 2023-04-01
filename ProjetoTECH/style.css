@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #e6e6e6;
+}
+
+a {
+    text-decoration: none;
+}
+
+#area-cabeçalho {
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+#area-logo {
+    padding: 10px;
+}
+
+#area-menu {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#area-menu a {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#area-menu a:link,
+a:visited {
+    color: #fff;
+}
+
+#area-menu a:hover {
+    color: #f7b600;
+    background-color: #fff;
+}
+
+
+h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+
+}
+
+.branco {
+    color: white;
+}
+
+.area-principal {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 165px;
+    background: #e6e6e6;
+}
+
+.area-postagens {
+    width: 70%;
+    margin: 0 4% 0 3%;
+    border-radius: 5px;
+}
+
+.area-lateral {
+    width: 25%;
+    margin: 0 3% 0 0;
+    border-radius: 5px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    margin-left: 50%;
+}
+
+.text-muted {
+    opacity: 0.5;
+    font-size: 0.8em;
+}
+
+.postagem {
+    border-radius: 5px;
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.postagem h2 {
+    color: #f7b5009d;
+}
+
+.postagem img {
+    display: flex;
+    margin: 0 auto;
+    padding: 15px 0px;
+}
+
+.postagem p {
+    text-align: justify;
+}
+
+.postagem a {
+    color: black;
+    text-decoration: underline;
+}
+
+.postagem a:hover {
+    text-decoration: none;
+    color: #f7b600
+}
+
+.conteudo-recente {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.conteudo-recente h2 {
+    background: #f7b5009d;
+    border-radius: 5px;
+    padding: 2px;
+    text-align: center;
+}
+
+.postagem-lateral {
+    padding: 10px;
+
+}
+
+.postagem-lateral a {
+    color: black;
+    text-decoration: underline;
+}
+
+.postagem-lateral a:hover {
+    color: #f7b600;
+    text-decoration: none;
+}
