@@ -1,0 +1,39 @@
+/* Modelo de caixa */
+
+
+.conteudo {
+	border: 1px solid red;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	/* Padding top ou bottom aumenta a height da div já padding rigth ou left aumenta a width da div */
+	padding: 20px 15px 10px 5px;
+	padding: 20px;
+	/* padding com 2 valores aumenta cima baixo com o primeiro valor e lados com o segundo */
+	/* quando se tem uma margin bootom em uma div de 30px e outra na div abaixo de margin-top 20px a distancia entre as divs vai ser a maior margin setada no caso a de 30px da div superior*/
+	/* H2 e seus irmão ja tem uma margin por padrão cuidado */
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	margin: 10px;
+
+	width: 150px;
+}
+
+.conteudo2 {
+	margin: 5px;
+	width: 150px;
+	border: 1px solid red;
+}
+
+#noticia {
+	background: #f9f9f9;
+	border: 1px solid gray;
+	padding: 10px;
+}
+
+h2 {
+	margin: 0px;
+}
