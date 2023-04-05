@@ -1,0 +1,44 @@
+
+
+
+/******************************************
+Barra de navegação vertical
+
+ul {
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+
+	padding: 5px 20px;
+	background: url(imagens/seta.png) no-repeat left center;
+}*/
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+ul a {
+	/*border: 1px solid red;*/
+	width: 200px;
+	height: 40px;
+	display: block;
+	/* inline = tamanho do conteudo block = tamanho setado pelo css inline-block = tamanho setado porem em linha */
+	color: #000;
+	text-decoration: none;
+	text-indent: 40px;
+	/* seta o valor de distancia (tab) para o inicio do texto no block */
+	line-height: 40px;
+	/* seta o tamanho do linha ou a distancia da linha de texto dentro do bloco concomitante com o fontsize (mto bom para centralizar o texto dentro de pequenos espaços */
+	background:url(imagens/menu.png)  no-repeat left  bottom;
+}
+
+a:hover {
+	background-position: right bottom;
+	color: #fff;
+
+}
