@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas e Formularios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <h2>Estilos de Tabelas</h2>
+    <table>
+        <tr>
+            <th>Código</th>
+            <th>Produto</th>
+            <th class="number">Preço</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Note</td>
+            <td class="number">R$ 3.000,00</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>Cel</td>
+            <td class="number">R$ 1.500,00</td>
+        </tr>
+        <tr>
+            <td>003</td>
+            <td>Nexus</td>
+            <td class="number">R$ 2.800,00</td>
+        </tr>
+        <tr>
+            <td>004</td>
+            <td>HUB</td>
+            <td class="number">R$ 5.500,00</td>
+        </tr>
+    </table> -->
+
+    <h2>Formularios</h2>
+    <form action="">
+
+        <fieldset>
+            <legend>Conta</legend>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+            <br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email">
+            </div>
+            <br>
+            <div>
+                <label for="url">Url:</label>
+                <input type="text" name="url" id="url">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Detalhes</legend>
+            <div>
+                <label for="mensagem">Comentario:</label>
+                <textarea name="mensagem" id="mensagem"></textarea>
+            </div>
+
+        </fieldset>
+        <fieldset>
+            <legend>Lembrar de mim</legend>
+            <div>
+                <label> <input class="radio" type="radio" name="lembrar" id="sim">Manter Conectado
+                </label>
+                <label> <input class="radio" type="radio" name="lembrar" id="nao">Não Manter Conectado
+                </label>
+
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
